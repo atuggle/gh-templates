@@ -2,8 +2,11 @@
 
 problem statement, including
 
-- [Jira story [IO-5939]](https://jira.rediker.com/browse/IO-5939)
-- [Jira task: [IO-6120]](https://jira.rediker.com/browse/IO-6120)
+- Jira story [IO-4778](https://jira.rediker.com/browse/IO-4778)
+  - Includes:
+    - sub-task [IO-6676](https://jira.rediker.com/browse/IO-6676)
+    - sub-task [IO-6677](https://jira.rediker.com/browse/IO-6677)
+    - sub-task [IO-6678](https://jira.rediker.com/browse/IO-6678)
 
 ## Solution
 
@@ -14,6 +17,7 @@ with @atuggle
 ### Will I need to
 
 - [ ] yarn install 🧶
+- [ ] verify `yarn.lock` has been updated in this commit
 - [ ] migrate 🦢
 - [ ] seed_data 🌱
 - [ ] docker build 🏗️
