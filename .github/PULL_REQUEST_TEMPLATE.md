@@ -10,34 +10,33 @@ problem statement, including
 
 ## Solution
 
-What I/we did to solve this problem
+- Added field `educationOrganization` to prisma schema model `DirectoryEntry`
+- Generated prisma migration
+- Updated seed data
 
-with @atuggle
+## Will I need to
 
-### Will I need to
+- [x] `yarn initialize`
+- [ ] `yarn install`
+- [x] `yarn migrate`
+- [x] `yarn seed`
+- [ ] docker build 
+- [x] all tests pass
 
-- [ ] yarn install 🧶
-- [ ] verify `yarn.lock` has been updated in this commit
-- [ ] migrate 🦢
-- [ ] seed_data 🌱
-- [ ] docker build 🏗️
+## Steps to Verify
 
-### Change summary
+- [ ] yarn.lock was updated
+- [x] fixures.csv
+- [x] apiDataBackUp.sql
+- [x] `yarn test:unit`
+- [ ] `yarn test:e2e`
 
-- New modules/components/views/etc.
-- New Yarn packages
-- Changed behavior
-- Refactored code
-- Something else I/we did
+## Steps to execute locally
 
-### Steps to Verify
+1. `yarn initialize`
+1. `yarn seed`
+1. `yarn start`
+1. verify directory entries are correctly associated with one of the following Education Organizations
 
-1. Necessary setup
-2. Where to start
-3. What to do next
-4. Expected behavior
-5. Suggestions for stress testing
-
-### Screenshots
-
-Where applicable, show-n-tell images/animations
+- `education-organization-hampden-middle-school`
+- `education-organization-rediker-elementary-school`
