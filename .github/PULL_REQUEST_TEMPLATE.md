@@ -16,10 +16,10 @@ problem statement, including
 
 ## Will I need to
 
-- [x] `yarn initialize`
 - [ ] `yarn install`
-- [x] `yarn migrate`
+- [x] `yarn initialize`
 - [x] `yarn seed`
+- [x] `yarn migrate`
 - [ ] docker build 
 - [x] all tests pass
 
@@ -33,10 +33,10 @@ problem statement, including
 
 ## Steps to execute locally
 
+1. `docker-compose down`
 1. `yarn initialize`
 1. `yarn seed`
 1. `yarn start`
 1. verify directory entries are correctly associated with one of the following Education Organizations
-
-- `education-organization-hampden-middle-school`
-- `education-organization-rediker-elementary-school`
+  - `education-organization-hampden-middle-school`
+  - `education-organization-rediker-elementary-school`
