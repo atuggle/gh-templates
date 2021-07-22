@@ -21,7 +21,7 @@
 - [ ] fixures.csv (updated correctly)
 - [ ] migrations work with seed data 
 - [ ] apiDataBackUp.sql regenerated
-- [x] Solution works on BSE   
+- [x] Solution works on [BSE](https://main.sis.rediker.io/)
 
 
 ## Will I need to
