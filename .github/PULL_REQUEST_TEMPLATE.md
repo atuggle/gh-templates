@@ -18,10 +18,10 @@
 
 - [x] `yarn test:unit`
 - [ ] `yarn test:e2e`
-- [x] Solution works on BSE   
 - [ ] fixures.csv (updated correctly)
 - [ ] migrations work with seed data 
 - [ ] apiDataBackUp.sql regenerated
+- [x] Solution works on BSE   
 
 
 ## Will I need to
